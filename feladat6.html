@@ -28,12 +28,12 @@
     font-style:italic;
     font-weight: 1000;
 }
-.red{
+#red{
     color: red;
     font-weight: bold;
 }
 
-.zold{
+#zold{
     color: green;
     font-style: italic;
     font-weight: bold;
@@ -90,6 +90,16 @@ button{
     
     
 }
+.szavazás{
+    background-color:cadetblue;
+            color:bisque;
+            font-size: 20px;
+            margin-left: 155px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+
+}
 </style>
 <body>
     <h1 class="welcome">Üdv a Különös Kinézetű Állatok Vadasparkjának honlapján!</h1>
@@ -101,23 +111,23 @@ button{
     <h3>Állatparkunk nyitvatartása:</h3>
 
     <table class="table">
-        <th>Nap</th>
-        <th>Nyitvatartás</th>
+        <th class="table">Nap</th>
+        <th class="table">Nyitvatartás</th>
         <tr>
-            <td>Hétfő</td>
-            <td class="red">zárva</td>
+            <td class="table">Hétfő</td>
+            <td class="table" id="red">zárva</td>
             
         </tr>
 
         <tr>
-            <td>Kedd-péntek</td>
-            <td>9-18</td>
+            <td class="table">Kedd-péntek</td>
+            <td class="table">9-18</td>
             
         </tr>
 
         <tr>
-            <td>Szombat-vasárnap</td>
-            <td>9-20</td>
+            <td class="table">Szombat-vasárnap</td>
+            <td class="table">9-20</td>
             
         </tr>
     </table>
@@ -126,32 +136,32 @@ button{
 <h3>Jegyárak</h3>
 <table class="table2">
 <tr>
-    <td>Felnőtt</td>
-    <td>6.900 Ft</td>
+    <td class="table">Felnőtt</td>
+    <td class="table">6.900 Ft</td>
     
 </tr>
 
 <tr>
-    <td>Diák/nyugdíjas</td>
-    <td>5.000 Ft</td>
+    <td class="table">Diák/nyugdíjas</td>
+    <td class="table">5.000 Ft</td>
     
 </tr>
 
 <tr>
-    <td>Gyerek (3-14 éves kor között)</td>
-    <td>3.500 Ft</td>
+    <td class="table">Gyerek (3-14 éves kor között)</td>
+    <td class="table">3.500 Ft</td>
     
 </tr>
 
 <tr>
-    <td>Gyerek (3 éves kor alatt)</td>
-    <td class="zold">ingyenes</td>
+    <td class="table">Gyerek (3 éves kor alatt)</td>
+    <td class="table" id="zold">ingyenes</td>
     
 </tr>
 
 <tr>
-    <td>Családi jegy (2 felnőtt, 2 14 éven aluli gyerek)</td>
-    <td>16.000 Ft</td>
+    <td class="table">Családi jegy (2 felnőtt, 2 14 éven aluli gyerek)</td>
+    <td class="table">16.000 Ft</td>
     
 </tr>
 </table>
@@ -159,11 +169,12 @@ button{
 <button class="button">Megveszem a jegyet online</button>
 <br>
 
-<h3>Ízelítőül tekintsék meg néhány állatunkat:</h3>
+<h3>Szavazzon most az Önnek legjobban tetsző állatra! A szavazók között családi jegyet sorsolunk ki.</h3>
 <br>
 <div class="allatok">
     <img class="pics" src="platypus.jfif" alt="Platypus">
     <p class="allatnevek">Kacsacsőrű emlős</p>
+    <button class="szavazás">Erre szavazok</button>
 
 </div>
 
@@ -171,42 +182,95 @@ button{
 
     <img class="pics"src="hangyasz.jfif" alt="Hangyász sün">
     <p class="allatnevek">Hangyász sün</p>
+    <button class="szavazás">Erre szavazok</button>
 </div>
 
 <div class="allatok">
     <img class="pics"src="tatu.jfif" alt="Tatu">
     <p class="allatnevek">Tatu</p>
+    <button class="szavazás">Erre szavazok</button>
 
 </div>
 
 <div class="allatok">
     <img class="pics"src="hosszufuluugroeger.jpg" alt="Hosszú fülű ugró egér">
     <p class="allatnevek">Hosszúfülű ugróegér</p>
+    <button class="szavazás">Erre szavazok</button>
 
 </div>
 
 <div class="allatok">
     <img class="pics"src="alpaka.jpg" alt="Alpaka">
     <p class="allatnevek">Alpaka</p>
+    <button class="szavazás">Erre szavazok</button>
 
 </div>
 
 <div class="allatok">
     <img class="pics"src="elefantshrew.jpg" alt="Elefántcickány">
     <p class="allatnevek">Elefántcickány</p>
+    <button class="szavazás">Erre szavazok</button>
 </div>
 
 <div class="allatok">
     <img class="pics"src="hangyaszmedve.jfif" alt="Hangyász medve">
     <p class="allatnevek">Hangyász medve</p>
+    <button class="szavazás">Erre szavazok</button>
 </div>
 
 <div class="allatok">
     <img class="pics"src=sivatagi.jfif alt="Sivatagi róka">
     <p class="allatnevek">Sivatagi róka</p>
+    <button class="szavazás">Erre szavazok</button>
 </div>
 
+<h4>Kérdés esetén keressen minket bizalommal</h4>
+<form action="">
 
+    <label>Mikor járt nálunk utoljára?</label>
+    <input type="date">
+    <br>
+
+    <label>Mennyire volt elégedett parkunkkal?</label>
+    <input type="range">
+    <br>
+
+    <label for="Name">Név:</label>
+    <input type="text">
+    <br>
+    <label for="Mail">E-mail cím:</label>
+    <input type="text">
+    <br>
+    <label for="phonenr">Telefonszám:</label>
+    <input type="text">
+    <br>
+    <label for="time range">Mely időszakokban hívhatjuk?</label>
+    <select id="time rng" name="timerng">
+        <option value="8-12">8-12</option>
+        <option value="8-12">12-16</option>
+        <option value="8-12">16-20</option>
+
+      </select>
+    <br>
+
+    <label>Kattintson ide, ha szeretne e-mailben másolatot az üzenetéről:</label>
+    <input type="radio">
+    <br>
+
+    <label for="message">Írja le, miben segíthetünk:</label> <br>
+    <textarea name="" id="" cols="35" rows="10"></textarea>
+    <br>
+    <input type="button" value="Küldés">
+    <br>
+    <label for="clear">Eddig beírt adatok törlése:</label>
+    <input type="reset">
+
+
+    
+
+
+    
+</form>
 
 
     
