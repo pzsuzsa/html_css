@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feladat16_order</title>
+</head>
+<!--Készítsünk egy olyan hiánypótló weboldalt a fentiekhez, melyen vannak kártyák a megvásárolható termékekről és minden kártyán egy gomb amivel megvásárolhatom őket.
+     Ezeken felül az oldal alján egy gomb, mely a Kosár oldalra navigál. 
+     A Kosár oldalon tételszerűen soroljunk fel termékeket. (fixen 3-4-5 terméket, az előző oldalon lévő Megvásárolom gomboknak nem kell működnie)
+      A tétel lista alatt pedig egy link vagy gomb, mely a következő oldalra navigál a szállítási és számlázási adatok megadásához.
+       Tegyünk róla, hogy a 12-14-es feladatban elkészült oldalak valamint a mostani össze legyenek “kötve”, végig tudjon menni a felhasználó rajtuk.-->
+
+       <link rel="stylesheet" href="feladat16.css">
+<body>
+    <div class=logo>
+        <a  href="feladat16_welcome.html"><img src="../resources/bookstore.jfif" alt="book"  title="back to main page"></a>
+        </div>
+
+    <h2>Please fill delivery details</h2>
+    <h3>Billing address</h3>
+    <form action="feladat16_confirmation.html">
+
+        <br>
+        <fieldset id="szamlazas">
+            <label for="Név">Name:</label>
+            <input type="text" name="" id="">
+            <br>
+            <label for="Irányítószám">ZIP code:</label>
+            <input type="number">
+            <br>
+
+            <label for="Település">City:</label>
+            <input type="text" name="" id="">
+            <br>
+
+            <label for="Közterület neve">Street name:</label>
+            <input type="text" name="" id="">
+            <br>
+
+            
+            <label for="Házszám">House number:</label>
+            <input type="text" name="" id="">
+            <br>
+
+            <label for="Telefonszám">Phone number:</label>
+            <input type="tel" name="" placeholder="+36301234567">
+            <br>
+
+
+            <label for="clear">Clear data</label>
+            <input class="toBasket" type="reset" class="resetbutton">
+
+        </fieldset>
+
+
+
+        <h3>Delivery address:</h3>
+
+
+
+        <br>
+        <fieldset id="szallitas">
+            <label for="Név">Name:</label>
+            <input type="text" name="" id="">
+            <br>
+            <label for="Irányítószám">ZIP code:</label>
+            <input type="number">
+            <br>
+
+            <label for="Település">City:</label>
+            <input type="text" name="" id="">
+            <br>
+
+            <label for="Közterület neve">Street name:</label>
+            <input type="text" name="" id="">
+            <br>
+
+            
+            <label for="Házszám">House number:</label>
+            <input type="text" name="" id="">
+            <br>
+
+            <label for="Telefonszám">Phone number:</label>
+            <input type="tel" name="" placeholder="+36301234567">
+            <br>
+
+
+            <label for="clear">Clear data</label>
+            <input class="toBasket" type="reset" class="resetbutton">
+
+        </fieldset>
+
+        <input class="toBasket" type="submit" value="Send" >
+
+       
+
+
+    </form>
+
+</body>
+
+</html>
+    
+</body>
+</html>

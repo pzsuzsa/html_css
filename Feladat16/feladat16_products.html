@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feladat16_products</title>
+</head>
+<!--Készítsünk egy olyan hiánypótló weboldalt a fentiekhez, melyen vannak kártyák a megvásárolható termékekről és minden kártyán egy gomb amivel megvásárolhatom őket.
+     Ezeken felül az oldal alján egy gomb, mely a Kosár oldalra navigál. 
+     A Kosár oldalon tételszerűen soroljunk fel termékeket. (fixen 3-4-5 terméket, az előző oldalon lévő Megvásárolom gomboknak nem kell működnie)
+      A tétel lista alatt pedig egy link vagy gomb, mely a következő oldalra navigál a szállítási és számlázási adatok megadásához.
+       Tegyünk róla, hogy a 12-14-es feladatban elkészült oldalak valamint a mostani össze legyenek “kötve”, végig tudjon menni a felhasználó rajtuk.-->
+
+       <link rel="stylesheet" href="feladat16.css">
+<body>
+    <div class=logo>
+        <a  href="feladat16_welcome.html"><img src="../resources/bookstore.jfif" alt="book"  title="back to main page"></a>
+        </div>
+
+    <div class="books">
+        <img class= "book" src="../resources/macskak.jpg" alt="macskak">
+        <p class="author">Thomas McNamee</p>
+        <p class="title"> A macskák lelki élete</p>
+        <button class="basket">Put into the basket</button>
+
+    </div>
+
+    <div class="books">
+        <img class= "book" src="../resources/szepremenyek.jpg" alt="dickens">
+        <p class="author">Charles Dickens</p>
+        <p class="title"> Szép remények</p>
+        <button class="basket">Put into the basket</button>
+
+    </div>
+
+    <div class="books">
+        <img class= "book" src="../resources/sagan.jpg" alt="sagan">
+        <p class="author">Carl Sagan</p>
+        <p class="title"> Korok és démonok</p>
+        <button class="basket">Put into the basket</button>
+
+    </div>
+    <br>
+
+    <button class="toBasket"
+    onclick="window.open('feladat16_basket.html', '_self')">To basket
+</button>
+    
+</body>
+</html>

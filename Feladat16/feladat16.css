@@ -1,0 +1,75 @@
+body {
+    background-image: url("../resources/bookstore.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100 vh;
+    width: 100 vh;
+}
+
+img {
+    width: 25%;
+    margin-right: 100px;
+
+
+}
+
+.books {
+    border-style: solid;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 10px 10px 5px 5px;
+}
+
+.author {
+    color: chocolate;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.title {
+    color: chocolate;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.basket {
+    background-color: rgb(99, 71, 34);
+    color: bisque;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+
+}
+
+.book {
+    height: 300px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.toBasket {
+    background-color: burlywood;
+    color: bisque;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.logo {
+    height:200px;
+    width:200px;
+    
+}

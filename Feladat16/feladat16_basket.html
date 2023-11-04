@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feladat16_basket</title>
+</head>
+<!--Készítsünk egy olyan hiánypótló weboldalt a fentiekhez, melyen vannak kártyák a megvásárolható termékekről és minden kártyán egy gomb amivel megvásárolhatom őket.
+     Ezeken felül az oldal alján egy gomb, mely a Kosár oldalra navigál. 
+     A Kosár oldalon tételszerűen soroljunk fel termékeket. (fixen 3-4-5 terméket, az előző oldalon lévő Megvásárolom gomboknak nem kell működnie)
+      A tétel lista alatt pedig egy link vagy gomb, mely a következő oldalra navigál a szállítási és számlázási adatok megadásához.
+       Tegyünk róla, hogy a 12-14-es feladatban elkészült oldalak valamint a mostani össze legyenek “kötve”, végig tudjon menni a felhasználó rajtuk.-->
+
+<link rel="stylesheet" href="feladat16.css">
+
+<body>
+
+    <div class=logo>
+        <a  href="feladat16_welcome.html"><img src="../resources/bookstore.jfif" alt="book"  title="back to main page"></a>
+        </div>
+
+    <ul>
+        <li>Thomas McNamee A macskák lelki élete</li>
+        <li>Charles Dickens Szép remények</li>
+        <li>Carl Sagan Korok és démonok</li>
+    </ul>
+
+    <br>
+
+    <button class="toBasket" onclick="window.open('Feladat16_order.html', '_self')">Delivery data
+    </button>
+
+    <button class="toBasket" onclick="window.open('feladat16_registration.html', '_self')">Registration
+    </button>
+
+</body>
+
+</html>
