@@ -1,0 +1,42 @@
+body {
+    background-image: url("../resources/kitties.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50 px;
+    width: 50 px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: blue;
+}
+
+#me {
+    height: 150px;
+    width: 150px;
+}
+
+.list {
+    text-align: left;
+    color: rgb(255, 0, 136);
+    font-weight: bold;
+}
+
+#facebook {
+    background-color:rgb(25, 39, 103);
+    color:bisque;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+a:link { color:blue; }
+a:visited { color:aqua; }
+a:hover { color:blueviolet;  }
+a:active { color:cadetblue; }
+
+table {
+    color:darkmagenta;
+    font-weight: bold;
+    font-style: italic;
+}
