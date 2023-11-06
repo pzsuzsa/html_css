@@ -40,3 +40,13 @@ table {
     font-weight: bold;
     font-style: italic;
 }
+
+#justabutton {
+    background-color: blueviolet;
+    color: aqua;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
