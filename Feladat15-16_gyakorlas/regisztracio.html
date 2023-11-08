@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Készítsünk egy regisztrációs weboldalt, mely lényegében 3 oldalból áll. Az első oldalon üdvözöljük a webáruházban egy rövid leírással az árult termékekre vonatkozóan és tájékoztatjuk,
+hogy a vásárláshoz regisztráció szükséges. Illetve egy táblázat a lehetséges utánvételes szállítási díjakhoz.
+A regisztráció megkezdéséhez tegyünk ki a felületre egy gombot, amire kattintva a regisztrációs felületre navigál az oldal.
+Ezen a regisztrációs felületen kérjünk el minden szükséges adatot a felhasználótól.
+Tegyük fel, hogy a webshop szeretne különböző statisztikákat készíteni a vásárlóktól, így minél több adatot kérjünk el a vásárlóktól.
+A regisztrációs adatok megadása után legyen egy gomb, amire kattintva az oldal egy “köszönjük, hogy regisztrált, most már vásárolhat”.
+Készítsünk egy olyan hiánypótló weboldalt a fentiekhez, melyen vannak kártyák a megvásárolható termékekről és minden kártyán egy gomb amivel megvásárolhatom őket. 
+Ezeken felül az oldal alján egy gomb, mely a Kosár oldalra navigál. 
+A Kosár oldalon tételszerűen soroljunk fel termékeket. (fixen 3-4-5 terméket, az előző oldalon lévő Megvásárolom gomboknak nem kell működnie)
+A tétel lista alatt pedig egy link vagy gomb, mely a következő oldalra navigál a szállítási és számlázási adatok megadásához.
+Tegyünk róla, hogy a 12-14-es feladatban elkészült oldalak valamint a mostani össze legyenek “kötve”, végig tudjon menni a felhasználó rajtuk.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <script src="gyakorlas.js"></script>
+    <link rel="stylesheet" href="gyakorlas.css">
+</head>
+
+<body>
+    <img id="logo" src="../resources/fonal_logo.png" alt="fonal_logo" onclick="window.open('kezdo.html', '_self')">
+
+    <h3>Kérjük, a regisztrációhoz adja meg az alábbi adatokat:</h3>
+
+    <form action="">
+        <label for="name">Név:</label>
+        <input type="text" name="" id="name">
+        <br>
+
+        <label for="name">Felhasználónév:</label>
+        <input type="text" name="" id="username">
+        <br>
+
+        <label for="password">Jelszó</label>
+        <input type="password" name="" id="password">
+        <br>
+
+        <label for="zip">Irányítószám:</label>
+        <input type="number" name="" id="zip">
+        <br>
+
+        <label for="city">Település:</label>
+        <input type="text" name="" id="city">
+        <br>
+
+        <label for="street">Utca:</label>
+        <input type="text" name="" id="street">
+        <br>
+
+        <label for="housenr">Házszám:</label>
+        <input type="text" name="" id="housenr">
+        <br>
+
+        <label for="email">E-mail cím:</label>
+        <input type="text" name="" id="email">
+        <br>
+
+        <label for="birthday">Születési dátum:</label>
+        <input type="date" name="" id="birthday">
+        <br>
+
+        <label for="NL">Szeretne hírlevelet kapni?</label>
+        <input type="radio" name="" id="NL">
+        <br>
+
+        <input id="resetbutton" type="reset" value="Adatok törlése">
+
+        <input id="submitbutton" onclick="window.open('koszonjuk_a _regisztraciot.html','_self')" type="button"
+            value="Adatok rögzítése">
+    </form>
+
+</body>
+
+</html>

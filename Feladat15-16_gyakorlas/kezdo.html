@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Készítsünk egy regisztrációs weboldalt, mely lényegében 3 oldalból áll. Az első oldalon üdvözöljük a webáruházban egy rövid leírással az árult termékekre vonatkozóan és tájékoztatjuk,
+hogy a vásárláshoz regisztráció szükséges. Illetve egy táblázat a lehetséges utánvételes szállítási díjakhoz.
+A regisztráció megkezdéséhez tegyünk ki a felületre egy gombot, amire kattintva a regisztrációs felületre navigál az oldal.
+Ezen a regisztrációs felületen kérjünk el minden szükséges adatot a felhasználótól.
+Tegyük fel, hogy a webshop szeretne különböző statisztikákat készíteni a vásárlóktól, így minél több adatot kérjünk el a vásárlóktól.
+A regisztrációs adatok megadása után legyen egy gomb, amire kattintva az oldal egy “köszönjük, hogy regisztrált, most már vásárolhat”.
+Készítsünk egy olyan hiánypótló weboldalt a fentiekhez, melyen vannak kártyák a megvásárolható termékekről és minden kártyán egy gomb amivel megvásárolhatom őket. 
+Ezeken felül az oldal alján egy gomb, mely a Kosár oldalra navigál. 
+A Kosár oldalon tételszerűen soroljunk fel termékeket. (fixen 3-4-5 terméket, az előző oldalon lévő Megvásárolom gomboknak nem kell működnie)
+A tétel lista alatt pedig egy link vagy gomb, mely a következő oldalra navigál a szállítási és számlázási adatok megadásához.
+Tegyünk róla, hogy a 12-14-es feladatban elkészült oldalak valamint a mostani össze legyenek “kötve”, végig tudjon menni a felhasználó rajtuk.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kezdo oldal</title>
+    <script src="gyakorlas.js"></script>
+    <link rel="stylesheet" href="gyakorlas.css">
+</head>
+
+<body>
+
+    <img id="logo" src="../resources/fonal_logo.png" alt="fonal_logo" onclick="window.open('kezdo.html', '_self')">
+    <h2>Üdvözöljük a "Felveszem a fonalat" fonal webáruházban!</h2>
+
+    <h4>Weboldalunkon minden terméket megtalál, ami kötéshez, horgoláshoz szükséges.</h4>
+
+
+
+    <p>Szállítási díjaink:</p>
+
+    <table>
+
+
+        <th class="tableheader">Termékek összértéke (Ft)</th>
+        <th class="tableheader">Szállítási díj (Ft)</th>
+        <tr>
+            <td class="tabledata">0-5.000 </td>
+            <td class="tabledata">2.000 </td>
+        </tr>
+
+        <tr>
+            <td class="tabledata">5.001-10.000 </td>
+            <td class="tabledata">1.500 </td>
+        </tr>
+
+        <tr>
+            <td class="tabledata">10.001-15.000 </td>
+            <td class="tabledata">500 </td>
+        </tr>
+
+        <tr>
+            <td class="tabledata">15.001- </td>
+            <td class="tabledata">0 </td>
+        </tr>
+
+
+
+    </table>
+
+    <p>Tájékoztatjuk Önöket, hogy a vásárláshoz regisztráció szükséges, melyet megtehetnek az alábbi gombra kattintással:</p>
+    <br>
+    <button id="registrationbutton" onclick="window.open('regisztracio.html','_self')">Regisztráció</button>
+
+</body>
+
+</html>

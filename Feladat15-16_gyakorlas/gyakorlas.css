@@ -1,0 +1,125 @@
+body {
+    background-image: url(../resources/fonal_bg);
+    background-repeat:no-repeat;
+    background-size: cover;    
+    color:beige
+}
+
+#registrationbutton {
+    background-color: blanchedalmond;
+    color:dodgerblue;
+    font-size: 20px;
+    border-radius: 9%;
+}
+
+
+
+.tabledata {
+    border-style:solid;
+    text-align: center;
+}
+
+.tableheader {
+    border-style: double;
+    text-align: center;
+}
+
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+#resetbutton {
+    background-color: blanchedalmond;
+    color:rgb(255, 30, 176);
+    font-size: 20px;
+    border-radius: 9%;
+    margin-top: 20px;
+}
+
+#submitbutton {
+    background-color: blanchedalmond;
+    color:dodgerblue;
+    font-size: 20px;
+    border-radius: 9%;
+    margin-top: 20px;
+}
+
+#goproductsbutton {
+    background-color: blanchedalmond;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 9%;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+
+}
+
+.fonalak {
+    height: 300px;
+    width: 200px;
+    border-style: dotted;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 15px 5px 5px 5px;
+    display: inline-block;
+}
+
+.fonalkepek {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.fonaltípusok {
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.fonalárak {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#kosarbabutton {
+    background-color: blanchedalmond;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 9%;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+}
+
+#kosárhozbutton {
+    background-color: blanchedalmond;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 9%;
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 50px;
+}
+
+#szallitasiadatokhoz {
+    background-color: blanchedalmond;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 9%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
